@@ -1,0 +1,55 @@
+body {
+    background-color: #d2d6de;
+}
+
+.input-group[class*=col-] {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.panel dl:not(:last-child) {
+    border-bottom: 1px dotted lightgray;
+    padding-bottom: 20px;
+}
+.multi-line-table {
+    table-layout: fixed;
+    word-wrap: break-word;
+}
+.siginout
+{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.chainiframe
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+iframe
+{
+    width: 100%;
+    min-height: 870px;
+}
+
+.loginbtn {
+    position: fixed;
+    right: 10px;
+    top: 15px;
+}
+.loginbtn i, .loginbtn span{
+    color: #fff;
+}
+.loginexit {
+    position: fixed;
+    right: 10px;
+    top: 15px;
+}
+.loginexit i, .loginexit span{
+    color: #fff;
+}
+a {
+    color: #85b3e2;
+}
