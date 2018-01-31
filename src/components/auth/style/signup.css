@@ -1,0 +1,139 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    border-width: 0;
+    outline: 0;
+    vertical-align: baseline;
+}
+ul {
+    list-style: none;
+}
+.text-center {
+    text-align: center !important;
+}
+.login-box {
+    width: 300px;
+    height: 420px !important;
+    margin: 0 auto;
+    background: #fff;
+}
+.signinWay {
+    width: 100%;
+    height: 50px;
+    margin-left: 10px !important;
+}
+.signinWay ul li .signinTypeBar {
+    display: inline-block;
+    color: black;
+}
+.loginul {
+    width: 100%;
+    height: 100%;
+    padding-left: 0;
+    padding-top: 20px;
+    text-align: center;
+}
+.loginli {
+    color: #dddddd;
+    float: left;
+    width: 48%;
+    font-size: 16px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    cursor: pointer;
+}
+.loginli>a {
+    color: #bbbbbb;
+}
+.loginli:nth-child(1) {
+    border-right: 1px solid #bfbfbf;
+}
+.login-box-body {
+    background: transparent;
+    padding-left: 25px;
+    margin-left: 25px !important;
+}
+.form-style {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 10px;
+    margin: 0px;
+}
+.form-style input {
+    width: 81%;
+    height: 40px;
+    border:1px solid #ccc;
+    border-radius:1px;
+    /* margin-bottom: 15px; */
+    font-size: 16px;
+}
+.form-style-test {
+    display: inline-block;
+    position: relative;
+}
+.form-test
+{
+    display:block;
+    width:55%!important;
+    height: 36px;
+    margin-bottom: 15px;
+    border-radius:1px;
+    border:1px solid #ccc;
+    padding: 10px;
+    /* margin-right: 20px;*/
+}
+.form-test .help-block
+{
+    display: none!important;
+}
+.send-testcode
+{
+    cursor: pointer;
+    color: #2ad0e9;
+    font-size: 12px;
+    position: absolute;
+    top: 20px;
+    right: -19%;
+}
+.form-register
+{
+    display:block;
+    width:95%!important;
+    height: 36px;
+    margin-bottom: 15px;
+    border-radius:3px;
+    color: white;
+    background: linear-gradient(to right,#27D7E9,#16F6EA);
+    border:1px solid #16F6EA;
+    box-shadow: 0 0 5px #16F6EA;
+    margin-top: 10px;
+}
+.checkbox-width
+{
+    width: 16px;
+    height: 16px;
+}
+.checkbox-margin span {
+    font-size: 12px;
+}
+.form-register:hover,.form-register:active,.form-login:hover,.form-login:active
+{
+    background: linear-gradient(to right,#27D7E9,#16F6EA);
+    border:1px solid #16F6EA;
+    box-shadow: 0 0 5px #16F6EA;
+    color: white;
+}
+.clicklogin
+{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 15px;
+}
+.forgetpwd>a,.forgetpwd>a:hover,.forgetpwd>a:active,.clicklogin>a,.clicklogin>a:hover,.clicklogin>a:active
+{
+    color: #444444;
+    font-size: 13px;
+}
